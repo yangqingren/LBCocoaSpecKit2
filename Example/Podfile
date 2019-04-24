@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LBCocoaSpecKit2_Example' do
+  pod 'LBCocoaSpecKit2', :path => '../'
+
+  target 'LBCocoaSpecKit2_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
