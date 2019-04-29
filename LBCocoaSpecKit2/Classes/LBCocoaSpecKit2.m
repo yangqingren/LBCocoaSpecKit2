@@ -8,7 +8,16 @@
 //
 
 #import "LBCocoaSpecKit2.h"
+#import <AFNetworking/AFNetworking.h>
 
 @implementation LBCocoaSpecKit2
+
+
+- (instancetype)init {
+    if (self = [super init]) {
+        [AFURLConnectionOperation new];
+    }
+    return self;
+}
 
 @end
