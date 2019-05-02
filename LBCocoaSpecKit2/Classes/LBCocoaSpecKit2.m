@@ -15,7 +15,7 @@
 
 - (instancetype)init {
     if (self = [super init]) {
-        [AFURLConnectionOperation new];
+//        [AFURLConnectionOperation new];
     }
     return self;
 }
