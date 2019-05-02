@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LBCocoaSpecKit2'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'A short description of LBCocoaSpecKit2.'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'LBCocoaSpecKit2/Classes/**/*'
   
-  s.dependency 'AFNetworking' ,'2.7.0'
+  s.dependency 'AFNetworking' ,'~> 3.0.0'
   
   # s.resource_bundles = {
   #   'LBCocoaSpecKit2' => ['LBCocoaSpecKit2/Assets/*.png']
